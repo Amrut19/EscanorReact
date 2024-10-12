@@ -3,23 +3,14 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-yellow-400 flex items-center justify-center">
+      <h1 className="text-5xl font-bold text-red-600">Welcome, Mighty Escanor!</h1>
+      <p className="text-lg text-white mt-4">The Lion's Sin of Pride greets you!</p>
     </div>
   );
 }
+
+
+
 
 export default App;
